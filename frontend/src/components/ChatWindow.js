@@ -65,12 +65,14 @@ const ChatWindow = () => {
 
   return (
     <div className="chat-window">
+         <h1>CDP Chatbot</h1>
       <div className="status-indicator">
+
         <div className={`status-light ${backendStatus ? "green" : "red"}`} />
         <span>
   {backendStatus
-    ? "The backend is wide awake and ready to assist! 🟢"
-    : "The backend is currently napping (Render free tier pauses services when idle). It may take up to 2 minutes to wake up! 🔴"}
+    ? "The backend is wide awake and ready to assist! "
+    : "The backend is currently napping (Render free tier pauses services when idle). It may take up to 2 minutes to wake up! "}
 </span>
 
 
