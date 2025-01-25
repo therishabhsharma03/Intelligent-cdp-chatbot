@@ -1,0 +1,123 @@
+{"level":"info","message":"Docs data loaded successfully.","timestamp":"2025-01-24T16:16:02.289Z"}
+{"includeScore":true,"keys":["title","headings","content"],"level":"info","message":"Fuse.js initialized with options:","threshold":0.4,"timestamp":"2025-01-24T16:16:02.303Z"}
+{"level":"info","message":"Server is running on port 5000","timestamp":"2025-01-24T16:16:02.303Z"}
+{"level":"info","message":"Received query: quick start","timestamp":"2025-01-24T16:16:28.286Z"}
+{"content":"welcome to the lytics developer tier this guide will walk you through the steps to get started with lytics and leverage its powerful personalization capabilities for your website before diving into the setup process make sure you have the following getting started with lytics is quick and easy in just a few minutes youll be able to set up lytics and start personalizing your website weve focused this guide on the 3 essential steps to ensure a positive experience for you and your customers after completing the initial checklist outlined above its time to explore further avenues for enhancing and utilizing your profiles to their fullest potential weve broken additional guides into two core focuses here well gain a comprehensive understanding of all available outofthebox attributes discover how to tag your site and integrate other sources to create robust and comprehensive profiles this section is divided into here well explore leveraging outofthebox personalization sdks and apis to deliver optimal user experiences discover how to harness lytics tools and integrations to create tailored experiences that resonate with your audience this section covers updated5 months ago","level":"info","message":"Response sent:","timestamp":"2025-01-24T16:16:28.344Z","title":"Developer Quickstart","url":"https://docs.lytics.com/docs/developer-quickstart"}
+{"level":"info","message":"Received query: quick start","timestamp":"2025-01-24T16:23:12.519Z"}
+{"content":"welcome to the lytics developer tier this guide will walk you through the steps to get started with lytics and leverage its powerful personalization capabilities for your website before diving into the setup process make sure you have the following getting started with lytics is quick and easy in just a few minutes youll be able to set up lytics and start personalizing your website weve focused this guide on the 3 essential steps to ensure a positive experience for you and your customers after completing the initial checklist outlined above its time to explore further avenues for enhancing and utilizing your profiles to their fullest potential weve broken additional guides into two core focuses here well gain a comprehensive understanding of all available outofthebox attributes discover how to tag your site and integrate other sources to create robust and comprehensive profiles this section is divided into here well explore leveraging outofthebox personalization sdks and apis to deliver optimal user experiences discover how to harness lytics tools and integrations to create tailored experiences that resonate with your audience this section covers updated5 months ago","level":"info","message":"Response sent:","timestamp":"2025-01-24T16:23:12.535Z","title":"Developer Quickstart","url":"https://docs.lytics.com/docs/developer-quickstart"}
+{"level":"info","message":"Docs data loaded successfully.","timestamp":"2025-01-24T16:23:30.429Z"}
+{"includeScore":true,"keys":["title","headings","content"],"level":"info","message":"Fuse.js initialized with options:","threshold":0.4,"timestamp":"2025-01-24T16:23:30.440Z"}
+{"level":"info","message":"Server is running on port 5000","timestamp":"2025-01-24T16:23:30.440Z"}
+{"level":"info","message":"Docs data loaded successfully.","timestamp":"2025-01-24T16:33:29.087Z"}
+{"includeScore":true,"keys":["title","headings","content"],"level":"info","message":"Fuse.js initialized with options:","threshold":0.4,"timestamp":"2025-01-24T16:33:29.095Z"}
+{"level":"info","message":"Server is running on port 5000","timestamp":"2025-01-24T16:33:29.096Z"}
+{"level":"info","message":"Docs data loaded successfully.","timestamp":"2025-01-24T16:35:22.617Z"}
+{"includeScore":true,"keys":["title","headings","content"],"level":"info","message":"Fuse.js initialized with options:","threshold":0.4,"timestamp":"2025-01-24T16:35:22.627Z"}
+{"level":"info","message":"Server is running on port 5000","timestamp":"2025-01-24T16:35:22.627Z"}
+{"level":"info","message":"Docs data loaded successfully.","timestamp":"2025-01-24T16:53:38.316Z"}
+{"includeScore":true,"keys":["question","answers.answer","answers.platform"],"level":"info","message":"Fuse.js initialized with options:","threshold":0.4,"timestamp":"2025-01-24T16:53:38.319Z"}
+{"level":"info","message":"Server is running on port 5000","timestamp":"2025-01-24T16:53:38.320Z"}
+{"level":"error","message":"Error loading docs data: Unexpected token { in JSON at position 5616","stack":"SyntaxError: Unexpected token { in JSON at position 5616\n    at JSON.parse (<anonymous>)\n    at loadDocsData (/home/rishabh-sharma/Documents/ChatBot/backend/index.js:44:21)\n    at async Server.<anonymous> (/home/rishabh-sharma/Documents/ChatBot/backend/index.js:97:3)","timestamp":"2025-01-24T16:54:42.032Z"}
+{"level":"error","message":"Error loading docs data: Unexpected token { in JSON at position 5616","stack":"SyntaxError: Unexpected token { in JSON at position 5616\n    at JSON.parse (<anonymous>)\n    at loadDocsData (/home/rishabh-sharma/Documents/ChatBot/backend/index.js:44:21)\n    at async Server.<anonymous> (/home/rishabh-sharma/Documents/ChatBot/backend/index.js:97:3)","timestamp":"2025-01-24T16:54:47.833Z"}
+{"level":"error","message":"Error loading docs data: Unexpected token { in JSON at position 5614","stack":"SyntaxError: Unexpected token { in JSON at position 5614\n    at JSON.parse (<anonymous>)\n    at loadDocsData (/home/rishabh-sharma/Documents/ChatBot/backend/index.js:44:21)\n    at async Server.<anonymous> (/home/rishabh-sharma/Documents/ChatBot/backend/index.js:97:3)","timestamp":"2025-01-24T16:55:19.724Z"}
+{"level":"info","message":"Docs data loaded successfully.","timestamp":"2025-01-24T16:55:39.220Z"}
+{"includeScore":true,"keys":["question","answers.answer","answers.platform"],"level":"info","message":"Fuse.js initialized with options:","threshold":0.4,"timestamp":"2025-01-24T16:55:39.226Z"}
+{"level":"info","message":"Server is running on port 5000","timestamp":"2025-01-24T16:55:39.226Z"}
+{"level":"info","message":"Docs data loaded successfully.","timestamp":"2025-01-24T16:59:58.620Z"}
+{"includeScore":true,"keys":["question","answers.answer","platform"],"level":"info","message":"Fuse.js initialized with options:","threshold":0.4,"timestamp":"2025-01-24T16:59:58.626Z"}
+{"level":"info","message":"Server is running on port 5000","timestamp":"2025-01-24T16:59:58.626Z"}
+{"level":"info","message":"Docs data loaded successfully.","timestamp":"2025-01-24T17:02:25.911Z"}
+{"distance":100,"includeScore":true,"keys":["question","answers.answer","platform"],"level":"info","location":0,"maxPatternLength":32,"message":"Fuse.js initialized with options:","threshold":0.3,"timestamp":"2025-01-24T17:02:25.914Z"}
+{"level":"info","message":"Server is running on port 5000","timestamp":"2025-01-24T17:02:25.915Z"}
+{"level":"info","message":"No match found for query: \"What is Segment?\"","timestamp":"2025-01-24T17:02:45.898Z"}
+{"level":"info","message":"Docs data loaded successfully.","timestamp":"2025-01-24T17:08:54.217Z"}
+{"distance":100,"includeScore":true,"keys":["question","answer","keywords"],"level":"info","message":"Fuse.js initialized with options:","threshold":0.3,"timestamp":"2025-01-24T17:08:54.221Z"}
+{"level":"info","message":"Server is running on port 5000","timestamp":"2025-01-24T17:08:54.222Z"}
+{"level":"info","message":"Received query: \"What is Segment?\"","timestamp":"2025-01-24T17:09:07.691Z"}
+{"level":"info","message":"Response sent: {\"question\":\"What is Segment?\",\"answer\":\"Segment is a customer data platform that allows you to collect, clean, and activate customer data.\"}","timestamp":"2025-01-24T17:09:07.699Z"}
+{"level":"info","message":"Received query: \"what is zeotap\"","timestamp":"2025-01-24T17:17:31.577Z"}
+{"level":"info","message":"Response sent: {\"question\":\"What is data integration?\",\"answer\":\"Data integration is the process of combining data from different sources into a unified view.\"}","timestamp":"2025-01-24T17:17:31.579Z"}
+{"level":"info","message":"Received query: \"what do zeotap do\"","timestamp":"2025-01-24T17:17:45.494Z"}
+{"level":"info","message":"No match found for query: \"what do zeotap do\"","timestamp":"2025-01-24T17:17:45.496Z"}
+{"level":"info","message":"Response sent: {\"question\":\"what do zeotap do\",\"answer\":\"Sorry, I couldn't find an answer to that question. Would you like to teach me the correct answer?\"}","timestamp":"2025-01-24T17:17:45.497Z"}
+{"level":"info","message":"Received query: \"zeoptal\"","timestamp":"2025-01-24T17:17:56.191Z"}
+{"level":"info","message":"No match found for query: \"zeoptal\"","timestamp":"2025-01-24T17:17:56.194Z"}
+{"level":"info","message":"Response sent: {\"question\":\"zeoptal\",\"answer\":\"Sorry, I couldn't find an answer to that question. Would you like to teach me the correct answer?\"}","timestamp":"2025-01-24T17:17:56.198Z"}
+{"level":"info","message":"Received query: \"how to create a account on segment\"","timestamp":"2025-01-24T17:18:09.510Z"}
+{"level":"info","message":"No match found for query: \"how to create a account on segment\"","timestamp":"2025-01-24T17:18:09.517Z"}
+{"level":"info","message":"Response sent: {\"question\":\"how to create a account on segment\",\"answer\":\"Sorry, I couldn't find an answer to that question. Would you like to teach me the correct answer?\"}","timestamp":"2025-01-24T17:18:09.518Z"}
+{"level":"info","message":"Docs data loaded successfully.","timestamp":"2025-01-24T17:21:39.414Z"}
+{"includeScore":true,"keys":["question","answer","keywords"],"level":"info","message":"Fuse.js initialized with options:","threshold":0.4,"timestamp":"2025-01-24T17:21:39.418Z"}
+{"level":"info","message":"Server is running on port 5000","timestamp":"2025-01-24T17:21:39.418Z"}
+{"level":"info","message":"Docs data loaded successfully.","timestamp":"2025-01-24T18:18:58.741Z"}
+{"distance":100,"includeScore":true,"keys":["question","answer","keywords"],"level":"info","message":"Fuse.js initialized with options:","threshold":0.3,"timestamp":"2025-01-24T18:18:58.748Z"}
+{"level":"info","message":"Server is running on port 5000","timestamp":"2025-01-24T18:18:58.748Z"}
+{"level":"info","message":"Received query: \"what is segment\"","timestamp":"2025-01-24T18:19:11.191Z"}
+{"level":"info","message":"Response sent: {\"question\":\"How do I segment my users in mParticle?\",\"answer\":\"In mParticle, you can segment users by defining attributes like demographics, behaviors, and custom event data to create meaningful audiences.\"}","timestamp":"2025-01-24T18:19:11.225Z"}
+{"level":"info","message":"Received query: \"how to create segment profile\"","timestamp":"2025-01-24T18:19:22.928Z"}
+{"level":"info","message":"No match found for query: \"how to create segment profile\"","timestamp":"2025-01-24T18:19:22.950Z"}
+{"level":"info","message":"Response sent: {\"question\":\"how to create segment profile\",\"answer\":\"Sorry, I couldn't find an answer to that question. Would you like to teach me the correct answer?\"}","timestamp":"2025-01-24T18:19:22.952Z"}
+{"level":"error","message":"Error loading docs data: Cannot read properties of undefined (reading 'toLowerCase')","stack":"TypeError: Cannot read properties of undefined (reading 'toLowerCase')\n    at /home/rishabh-sharma/Documents/ChatBot/backend/index.js:50:32\n    at Array.map (<anonymous>)\n    at loadDocsData (/home/rishabh-sharma/Documents/ChatBot/backend/index.js:48:33)\n    at async Server.<anonymous> (/home/rishabh-sharma/Documents/ChatBot/backend/index.js:142:3)","timestamp":"2025-01-24T18:43:21.464Z"}
+{"level":"error","message":"Error loading docs data: Cannot read properties of undefined (reading 'toLowerCase')","stack":"TypeError: Cannot read properties of undefined (reading 'toLowerCase')\n    at /home/rishabh-sharma/Documents/ChatBot/backend/index.js:50:32\n    at Array.map (<anonymous>)\n    at loadDocsData (/home/rishabh-sharma/Documents/ChatBot/backend/index.js:48:33)\n    at async Server.<anonymous> (/home/rishabh-sharma/Documents/ChatBot/backend/index.js:142:3)","timestamp":"2025-01-24T18:44:01.843Z"}
+{"level":"error","message":"Error loading docs data: Cannot read properties of undefined (reading 'toLowerCase')","stack":"TypeError: Cannot read properties of undefined (reading 'toLowerCase')\n    at /home/rishabh-sharma/Documents/ChatBot/backend/index.js:50:32\n    at Array.map (<anonymous>)\n    at loadDocsData (/home/rishabh-sharma/Documents/ChatBot/backend/index.js:48:33)\n    at async Server.<anonymous> (/home/rishabh-sharma/Documents/ChatBot/backend/index.js:142:3)","timestamp":"2025-01-24T18:44:53.889Z"}
+{"level":"error","message":"Error loading docs data: Cannot read properties of undefined (reading 'toLowerCase')","stack":"TypeError: Cannot read properties of undefined (reading 'toLowerCase')\n    at /home/rishabh-sharma/Documents/ChatBot/backend/index.js:50:32\n    at Array.map (<anonymous>)\n    at loadDocsData (/home/rishabh-sharma/Documents/ChatBot/backend/index.js:48:33)\n    at async Server.<anonymous> (/home/rishabh-sharma/Documents/ChatBot/backend/index.js:142:3)","timestamp":"2025-01-24T18:47:33.272Z"}
+{"level":"error","message":"Error loading docs data: Cannot read properties of undefined (reading 'toLowerCase')","stack":"TypeError: Cannot read properties of undefined (reading 'toLowerCase')\n    at /home/rishabh-sharma/Documents/ChatBot/backend/index.js:50:32\n    at Array.map (<anonymous>)\n    at loadDocsData (/home/rishabh-sharma/Documents/ChatBot/backend/index.js:48:33)\n    at async Server.<anonymous> (/home/rishabh-sharma/Documents/ChatBot/backend/index.js:142:3)","timestamp":"2025-01-24T18:48:15.798Z"}
+{"level":"info","message":"Docs data loaded successfully.","timestamp":"2025-01-24T18:50:04.151Z"}
+{"level":"info","message":"Fuse.js initialized.","timestamp":"2025-01-24T18:50:04.156Z"}
+{"level":"info","message":"Server is running on port 5000","timestamp":"2025-01-24T18:50:04.156Z"}
+{"level":"info","message":"Received query: \"what is segment\"","timestamp":"2025-01-24T18:50:26.796Z"}
+{"level":"info","message":"Preprocessed query: Original: \"what is segment\", Tokens: \"segment\"","timestamp":"2025-01-24T18:50:26.799Z"}
+{"level":"info","message":"Response sent: {\"question\":\"\",\"answer\":\"\"}","timestamp":"2025-01-24T18:50:26.814Z"}
+{"level":"info","message":"Received query: \"What is a customer data platform?\"","timestamp":"2025-01-24T18:51:48.765Z"}
+{"level":"info","message":"Preprocessed query: Original: \"What is a customer data platform?\", Tokens: \"custom data platform\"","timestamp":"2025-01-24T18:51:48.766Z"}
+{"level":"info","message":"No match found for query: \"What is a customer data platform?\"","timestamp":"2025-01-24T18:51:48.805Z"}
+{"level":"info","message":"Response sent: {\"question\":\"What is a customer data platform?\",\"answer\":\"Sorry, I couldn't find an answer to that question. Would you like to teach me the correct answer?\"}","timestamp":"2025-01-24T18:51:48.806Z"}
+{"level":"info","message":"Received query: \"yes\"","timestamp":"2025-01-24T18:52:57.184Z"}
+{"level":"info","message":"Preprocessed query: Original: \"yes\", Tokens: \"ye\"","timestamp":"2025-01-24T18:52:57.185Z"}
+{"level":"info","message":"Response sent: {\"question\":\"\",\"answer\":\"\"}","timestamp":"2025-01-24T18:52:57.188Z"}
+{"level":"info","message":"Docs data loaded successfully.","timestamp":"2025-01-24T18:56:15.479Z"}
+{"level":"info","message":"Fuse.js initialized.","timestamp":"2025-01-24T18:56:15.486Z"}
+{"level":"info","message":"Server is running on port 5000","timestamp":"2025-01-24T18:56:15.486Z"}
+{"level":"info","message":"Received query: \"How do CDPs improve customer engagement?\"","timestamp":"2025-01-24T18:57:26.170Z"}
+{"level":"info","message":"Preprocessed query: Original: \"How do CDPs improve customer engagement?\", Tokens: \"cdp improv custom engag\"","timestamp":"2025-01-24T18:57:26.173Z"}
+{"level":"info","message":"No match found for query: \"How do CDPs improve customer engagement?\"","timestamp":"2025-01-24T18:57:26.213Z"}
+{"level":"info","message":"Response sent: {\"question\":\"How do CDPs improve customer engagement?\",\"answer\":\"Sorry, I couldn't find an answer to that question. Would you like to teach me the correct answer?\"}","timestamp":"2025-01-24T18:57:26.217Z"}
+{"level":"info","message":"Received query: \"yes\"","timestamp":"2025-01-24T18:57:49.924Z"}
+{"level":"info","message":"Preprocessed query: Original: \"yes\", Tokens: \"ye\"","timestamp":"2025-01-24T18:57:49.927Z"}
+{"level":"info","message":"Response sent: {\"question\":\"\",\"answer\":\"\"}","timestamp":"2025-01-24T18:57:49.936Z"}
+{"level":"info","message":"Received query: \"what is zeotap\"","timestamp":"2025-01-24T19:01:09.615Z"}
+{"level":"info","message":"Preprocessed query: Original: \"what is zeotap\", Tokens: \"zeotap\"","timestamp":"2025-01-24T19:01:09.615Z"}
+{"level":"info","message":"No match found for query: \"what is zeotap\"","timestamp":"2025-01-24T19:01:09.620Z"}
+{"level":"info","message":"Response sent: {\"question\":\"what is zeotap\",\"answer\":\"Sorry, I couldn't find an answer to that question. Would you like to teach me the correct answer?\"}","timestamp":"2025-01-24T19:01:09.621Z"}
+{"level":"info","message":"Received query: \"yes\"","timestamp":"2025-01-24T19:01:12.407Z"}
+{"level":"info","message":"Preprocessed query: Original: \"yes\", Tokens: \"ye\"","timestamp":"2025-01-24T19:01:12.407Z"}
+{"level":"info","message":"Response sent: {\"question\":\"\",\"answer\":\"\"}","timestamp":"2025-01-24T19:01:12.410Z"}
+{"level":"info","message":"Received query: \"hello\"","timestamp":"2025-01-24T19:02:18.215Z"}
+{"level":"info","message":"Preprocessed query: Original: \"hello\", Tokens: \"hello\"","timestamp":"2025-01-24T19:02:18.216Z"}
+{"level":"info","message":"No match found for query: \"hello\"","timestamp":"2025-01-24T19:02:18.224Z"}
+{"level":"info","message":"Response sent: {\"question\":\"hello\",\"answer\":\"Sorry, I couldn't find an answer to that question. Would you like to teach me the correct answer?\"}","timestamp":"2025-01-24T19:02:18.228Z"}
+{"level":"info","message":"Received query: \"yes\"","timestamp":"2025-01-24T19:02:20.825Z"}
+{"level":"info","message":"Preprocessed query: Original: \"yes\", Tokens: \"ye\"","timestamp":"2025-01-24T19:02:20.826Z"}
+{"level":"info","message":"Response sent: {\"question\":\"\",\"answer\":\"\"}","timestamp":"2025-01-24T19:02:20.831Z"}
+{"level":"info","message":"Docs data loaded successfully.","timestamp":"2025-01-24T19:03:42.450Z"}
+{"level":"info","message":"Fuse.js initialized.","timestamp":"2025-01-24T19:03:42.456Z"}
+{"level":"info","message":"Server is running on port 5000","timestamp":"2025-01-24T19:03:42.456Z"}
+{"level":"info","message":"Preprocessed query: Original: \"what is zeotap?\", Tokens: \"zeotap\"","timestamp":"2025-01-24T19:03:52.381Z"}
+{"level":"info","message":"No match found for query: \"what is zeotap?\"","timestamp":"2025-01-24T19:03:52.389Z"}
+{"level":"info","message":"New data added: {\"question\":\"what is zeotap?\",\"answer\":\"it is a customer intelligence platform\",\"keywords\":[]}","timestamp":"2025-01-24T19:04:25.888Z"}
+{"level":"info","message":"Preprocessed query: Original: \"what is zeotap\", Tokens: \"zeotap\"","timestamp":"2025-01-24T19:04:30.007Z"}
+{"level":"info","message":"Preprocessed query: Original: \"hello\", Tokens: \"hello\"","timestamp":"2025-01-24T19:05:53.794Z"}
+{"level":"info","message":"No match found for query: \"hello\"","timestamp":"2025-01-24T19:05:53.835Z"}
+{"level":"info","message":"New data added: {\"question\":\"hello\",\"answer\":\"hi, how can i assist you ? \",\"keywords\":[]}","timestamp":"2025-01-24T19:06:37.953Z"}
+{"level":"info","message":"Preprocessed query: Original: \"hello\", Tokens: \"hello\"","timestamp":"2025-01-24T19:06:45.275Z"}
+{"level":"info","message":"Preprocessed query: Original: \"hello\", Tokens: \"hello\"","timestamp":"2025-01-24T19:06:57.664Z"}
+{"level":"info","message":"Docs data loaded successfully.","timestamp":"2025-01-24T19:10:32.676Z"}
+{"level":"info","message":"Fuse.js initialized.","timestamp":"2025-01-24T19:10:32.681Z"}
+{"level":"info","message":"Server is running on port 5000","timestamp":"2025-01-24T19:10:32.681Z"}
+{"level":"info","message":"Preprocessed query: Original: \"What is pipeline  profiles?\", Tokens: \"pipelin profil\"","timestamp":"2025-01-24T19:10:42.283Z"}
+{"level":"info","message":"Docs data loaded and normalized successfully.","timestamp":"2025-01-24T19:13:16.138Z"}
+{"level":"info","message":"Fuse.js initialized.","timestamp":"2025-01-24T19:13:16.143Z"}
+{"level":"info","message":"Server is running on port 5000","timestamp":"2025-01-24T19:13:16.143Z"}
+{"level":"info","message":"Received query: \"what is pipeline profiles\"","timestamp":"2025-01-24T19:13:38.293Z"}
+{"level":"info","message":"No match found for query: \"what is pipeline profiles\"","timestamp":"2025-01-24T19:13:38.368Z"}
+{"level":"info","message":"Response sent: {\"question\":\"what is pipeline profiles\",\"answer\":\"Sorry, I couldn't find an answer to that question. Would you like to teach me the correct answer?\"}","timestamp":"2025-01-24T19:13:38.372Z"}

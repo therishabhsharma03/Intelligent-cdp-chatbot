@@ -1,0 +1,82 @@
+[
+  {
+    "questions": ["what is quick start?", "how to use quick start?"],
+    "answers": ["Quick start guides you through the initial steps to use the platform effectively."],
+    "url": "https://docs.example.com/quick-start"
+  },
+  {
+    "questions": ["what is account management?", "how to use account management?"],
+    "answers": ["Account management allows you to handle user permissions and account settings effectively."],
+    "url": "https://docs.example.com/account-management"
+  },
+  {
+    "questions": ["what is key concepts?", "how to use key concepts?"],
+    "answers": ["Key concepts provide foundational understanding of the system and its operations."],
+    "url": "https://docs.example.com/key-concepts"
+  },
+  {
+    "questions": ["what is data collection in Segment?", "how does Segment collect data?"],
+    "answers": ["Data collection in Segment gathers customer data from various sources and channels to create a unified customer view."],
+    "url": "https://segment.com/docs/data-collection"
+  },
+  {
+    "questions": ["how to set up a new source in Segment?", "how do I integrate a source in Segment?", "How do I set up a new source in Segment?"],
+    "answers": ["To set up a new source in Segment, navigate to the Sources section, click 'Add Source', and follow the integration instructions."],
+    "url": "https://segment.com/docs/sources"
+  },
+  {
+    "questions": ["what is identity resolution in mParticle?", "how does mParticle resolve identities?"],
+    "answers": ["Identity resolution in mParticle connects and unifies customer identities across devices to create comprehensive profiles."],
+    "url": "https://docs.mparticle.com/identity"
+  },
+  {
+    "questions": ["how to create a user profile in mParticle?", "how to add a new user profile in mParticle?", "How can I create a user profile in mParticle?"],
+    "answers": ["To create a user profile in mParticle, use the User Identity API to send unique identifiers like customer ID or email."],
+    "url": "https://docs.mparticle.com/user-profiles"
+  },
+  {
+    "questions": ["what is audience segmentation in Lytics?", "how does Lytics segment audiences?"],
+    "answers": ["Audience segmentation in Lytics creates targeted groups based on behaviors, attributes, and interactions across channels."],
+    "url": "https://docs.lytics.com/segmentation"
+  },
+  {
+    "questions": ["how to build an audience segment in Lytics?", "how to create segments in Lytics?", "How do I build an audience segment in Lytics?"],
+    "answers": ["To build an audience segment in Lytics, use the Audience Builder to define criteria based on user attributes and behaviors."],
+    "url": "https://docs.lytics.com/audience-builder"
+  },
+  {
+    "questions": ["what is data integration in Zeotap?", "how does Zeotap integrate data?"],
+    "answers": ["Data integration in Zeotap connects and unifies customer data from multiple sources to create actionable databases."],
+    "url": "https://docs.zeotap.com/integration"
+  },
+  {
+    "questions": ["how to integrate my data with Zeotap?", "how to use Zeotap for data integration?", "How can I integrate my data with Zeotap?"],
+    "answers": ["To integrate data with Zeotap, use their API or SDK, configure data sources, and set up real-time or batch synchronization."],
+    "url": "https://docs.zeotap.com/data-integration"
+  },
+  {
+    "questions": ["what are customer data pipelines?", "how do customer data pipelines work?"],
+    "answers": ["Customer data pipelines automate the collection, transformation, and routing of data from sources to destinations."],
+    "url": "https://segment.com/docs/pipelines"
+  },
+  {
+    "questions": ["how do customer data platforms handle privacy?", "how does a CDP ensure data privacy?"],
+    "answers": ["CDPs handle privacy with consent management, data anonymization, and compliance with regulations like GDPR and CCPA."],
+    "url": "https://docs.mparticle.com/privacy"
+  },
+  {
+    "questions": ["what is mParticle?", "how does mParticle work?"],
+    "answers": ["mParticle is a customer data platform (CDP) that collects, unifies, and activates customer data from various sources."],
+    "url": "https://docs.mparticle.com"
+  },
+  {
+    "questions": ["what is Segment?", "how does Segment work?"],
+    "answers": ["Segment is a customer data platform that simplifies data collection and activation across multiple tools and platforms."],
+    "url": "https://segment.com"
+  },
+  {
+    "questions": ["what is Lytics?", "how does Lytics work?"],
+    "answers": ["Lytics is a customer data platform that provides audience insights and segmentation based on behavioral data."],
+    "url": "https://docs.lytics.com"
+  }
+]
