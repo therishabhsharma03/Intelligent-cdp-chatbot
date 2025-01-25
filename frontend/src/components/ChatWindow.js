@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import MessageInput from "./MessageInput";
 import axios from "axios";
 import "./ChatWindow.css";
@@ -7,62 +7,48 @@ const ChatWindow = () => {
   const [messages, setMessages] = useState([
     { text: "Hello! How can I assist you with CDPs today?", sender: "bot" },
   ]);
+  const [backendStatus, setBackendStatus] = useState(false); // Backend status
   const [teachingMode, setTeachingMode] = useState(null);
-  const [loading, setLoading] = useState(false); // Add loading state for bot typing indicator
+  const [loading, setLoading] = useState(false); // Typing indicator
+
+  // Check backend status periodically
+  useEffect(() => {
+    const checkBackendStatus = async () => {
+      try {
+        console.log("checked - u ");
+        const response = await axios.get("https://intelligent-cdp-chatbot.onrender.com/status");
+        console.log("checked - d ");
+        if (response.data.status === "ready") {
+          setBackendStatus(true);
+        } else {
+          setBackendStatus(false);
+        }
+      } catch {
+        setBackendStatus(false);
+      }
+    };
+
+    // Check status every 1 seconds
+    const interval = setInterval(checkBackendStatus, 2500);
+    checkBackendStatus(); // Initial check
+
+    return () => clearInterval(interval); // Cleanup on unmount
+  }, []);
 
   const handleSendMessage = async (userMessage) => {
-    setMessages((prevMessages) => [
-      ...prevMessages,
-      { text: userMessage, sender: "user" },
-    ]);
-
-    setLoading(true); // Show typing indicator
-
-    if (teachingMode) {
-      try {
-        await axios.post("http://localhost:5000/teach", {
-          question: teachingMode.question,
-          answer: userMessage,
-          keywords: [],
-        });
-        setMessages((prevMessages) => [
-          ...prevMessages,
-          { text: "Thank you! I've learned the new information.", sender: "bot" },
-        ]);
-        setTeachingMode(null);
-      } catch (error) {
-        console.error("Error teaching the bot:", error);
-        setMessages((prevMessages) => [
-          ...prevMessages,
-          {
-            text: "Sorry, I couldn't save the new information. Please try again later.",
-            sender: "bot",
-          },
-        ]);
-      }
-      setLoading(false); // Hide typing indicator
-      return;
-    }
+    setMessages((prevMessages) => [...prevMessages, { text: userMessage, sender: "user" }]);
+    setLoading(true);
 
     try {
-      const response = await axios.post("http://localhost:5000/ask", {
+      const response = await axios.post("https://intelligent-cdp-chatbot.onrender.com/ask", {
         question: userMessage,
       });
 
-      const { answer, message } = response.data;
-
-      if (message === "Please provide the correct answer to add it to my knowledge.") {
-        setTeachingMode({ question: userMessage });
-        setMessages((prevMessages) => [
-          ...prevMessages,
-          { text: message, sender: "bot" },
-        ]);
-      } else {
-        setMessages((prevMessages) => [
-          ...prevMessages,
-          { text: formatBotMessage(answer), sender: "bot", isRich: true },
-        ]);
-      }
+      const { answer } = response.data;
+      setMessages((prevMessages) => [
+        ...prevMessages,
+        { text: answer || "Sorry, I couldn't retrieve an answer.", sender: "bot" },
+      ]);
     } catch (error) {
       console.error("Error fetching the answer:", error);
       setMessages((prevMessages) => [
@@ -73,37 +59,26 @@ const ChatWindow = () => {
         },
       ]);
     } finally {
-      setLoading(false); // Hide typing indicator
+      setLoading(false);
     }
-  };
-
-  const formatBotMessage = (message) => {
-    // Format the message to include headings, bullet points, etc.
-    return (
-      <div className="bot-response">
-        {message.split("\n").map((line, index) => {
-          if (line.startsWith("* ")) {
-            return (
-              <li key={index} className="bot-list-item">
-                {line.slice(2)}
-              </li>
-            );
-          }
-          if (line.trim().length === 0) {
-            return <br key={index} />;
-          }
-          return <p key={index}>{line}</p>;
-        })}
-      </div>
-    );
   };
 
   return (
     <div className="chat-window">
+      <div className="status-indicator">
+        <div className={`status-light ${backendStatus ? "green" : "red"}`} />
+        <span>
+  {backendStatus
+    ? "The backend is wide awake and ready to assist! 🟢"
+    : "The backend is currently napping (Render free tier pauses services when idle). It may take up to 2 minutes to wake up! 🔴"}
+</span>
+
+
+      </div>
       <div className="chat-box">
         {messages.map((msg, index) => (
           <div key={index} className={`message ${msg.sender}`}>
-            {msg.isRich ? msg.text : <p>{msg.text}</p>}
+            <p>{msg.text}</p>
           </div>
         ))}
         {loading && (

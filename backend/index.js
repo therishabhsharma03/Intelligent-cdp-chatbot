@@ -16,6 +16,11 @@ const GEMINI_API_URL = `https://generativelanguage.googleapis.com/v1beta/models/
 
 let docsData = []; // To hold the restructured data
 
+app.get('/status', (req, res) => {
+  console.log("./status-hit")
+  res.json({ status: 'ready' });
+});
+
 // Load and process dataset
 const loadDocsData = async () => {
   try {
