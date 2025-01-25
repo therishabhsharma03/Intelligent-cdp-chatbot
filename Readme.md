@@ -103,23 +103,4 @@ npm start
 - Analytics
 - Additional APIs
 
-## Troubleshooting
-### Common Issues
-- Backend not responding
-- Learning functionality not working
-- API query failures
 
-## Contributing
-1. Fork the repository
-2. Create a feature branch
-3. Commit changes
-4. Push to branch
-5. Create pull request
-
-## License
-MIT License
-
-## Contact
-- **Name**: Your Name
-- **Email**: your.email@example.com
-- **GitHub**: your-github-profile
