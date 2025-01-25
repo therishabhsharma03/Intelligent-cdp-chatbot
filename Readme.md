@@ -1,5 +1,7 @@
 # Intelligent CDP Chatbot
 
+Deployment Link "https://intelligent-cdp-chatbot.vercel.app/"
+
 ## Overview
 The Intelligent CDP Chatbot is a hybrid question-answering system that provides accurate, concise, and structured responses to queries about Customer Data Platforms (CDPs Zeotap , mParticle, lytics, segment). It leverages both local data (JSON knowledge base) and external APIs (Google Gemini) to deliver responses, ensuring a reliable fallback mechanism and continuous learning.
 
@@ -103,23 +105,4 @@ npm start
 - Analytics
 - Additional APIs
 
-## Troubleshooting
-### Common Issues
-- Backend not responding
-- Learning functionality not working
-- API query failures
 
-## Contributing
-1. Fork the repository
-2. Create a feature branch
-3. Commit changes
-4. Push to branch
-5. Create pull request
-
-## License
-MIT License
-
-## Contact
-- **Name**: Your Name
-- **Email**: your.email@example.com
-- **GitHub**: your-github-profile
